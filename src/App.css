@@ -1,0 +1,131 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.app-wrapper {
+  overflow-x: hidden;
+}
+
+/* Loader start */
+#preloader {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+  width: 30%;
+  min-width: 350px;
+
+  background-color: gray;
+}
+
+.progress-bar {
+  width: 0;
+  height: 100%;
+  animation-name: loader;
+  animation-duration: 2500ms;
+  animation-timing-function: linear;
+  background-color: #B24BF3;
+}
+
+@keyframes loader {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+/* Loader end */
+
+/* ScrollBar Start */
+
+/* width */
+::-webkit-scrollbar {
+
+  width: 10px;
+
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+  background-color: red;
+
+
+}
+
+
+/* ScrollBar End */
+
+/* Socail Medias Start*/
+
+.social-medias {
+  background-color: rgba(20, 20, 20, 0.5);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  padding: 0 10px;
+  z-index: 99;
+}
+
+.social-medias a {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.5rem;
+  transition: 300ms all ease;
+  -webkit-transition: 300ms all ease;
+  -moz-transition: 300ms all ease;
+  -ms-transition: 300ms all ease;
+  -o-transition: 300ms all ease;
+}
+
+.social-medias a:hover {
+  color: #B24BF3;
+}
+
+/* Socail Medias End*/
+
+/* Footer Start */
+.main-footer {
+  background-color: rgb(20, 20, 20);
+  border-top: 1px solid white;
+  color: white;
+}
+
+/* Footer End */
