@@ -64,9 +64,9 @@ function App() {
   //Are Bullish Middle image animation
   function scrollFunction() {
     let x = document.querySelector(".are-you-bullish-content-image-middle")
-    let y = document.documentElement.scrollTop - 2000
+    let y = document.documentElement.scrollTop
 
-    if (y < -600 && y > -1300 && window.innerWidth > 992) { x.style.top = `${-(400 + y) / 3.5}px`; console.log("sa") }
+    if (y < 1500 && y > 900 && window.innerWidth > 992) { x.style.top = `${-0.9 * (-1600 + y) / 3.5}px`; }
     else if (window.innerWidth < 992) {
       x.style.top = "30px";
     }
