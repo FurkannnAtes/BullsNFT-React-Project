@@ -20,6 +20,7 @@ const Navbar = () => {
 
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark mainNavbar">
                 <div className="container-fluid">
+                    <a className="navbar-brand "><img className='w-100 h-100' src="/images/Centered_logo_text.jpg" alt="" /></a>
                     <button
                         className="navbar-toggler ms-auto"
                         type="button"

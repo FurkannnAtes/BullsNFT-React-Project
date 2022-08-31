@@ -73,10 +73,10 @@ function App() {
 
   }
 
-  window.onscroll = function () { scrollFunction() };
+
   window.onscroll = function () {
     activeNav()
-
+    scrollFunction()
   }
 
 

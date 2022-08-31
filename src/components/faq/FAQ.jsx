@@ -17,11 +17,11 @@ const FAQ = () => {
             <div className="accordion w-75 mx-auto mt-5  " id="FAQ">
                 <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingOne">
-                        <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button className="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             WHAT IS BULL’S LODGE NFT PROJECT'S VISION AND MISSION?
                         </button>
                     </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#FAQ">
+                    <div id="collapseOne" className="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#FAQ">
                         <div className="accordion-body">
                             Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell? That was enough and we have made our decision! We want to create a value with Metaverse & In Real Life utilities and benefits for the members of our society. When it comes to earning, we want to create sustainable passive income model for members of Lodge. For this purpose, we have gathered together as volunteers/investors/contributors of Web3 and NFT. We have come together to push each other's back despite how strong the wind is. People from communities across the Web3, Blockchain, Machine Learning and NFT Spaces are now working to build a better COMMUNITY, a better HOME, a better LODGE!
                         </div>
